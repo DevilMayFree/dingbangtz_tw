@@ -258,23 +258,23 @@ Vue.component('headerArea', {
                         <nav class="navBar wow animate__animated animate__fadeIn" :class="{show: $root.$data.navbarShow}">
                             <ul>
                                 <li :class="{'active': activeNum == 0}">
-                                    <a href="index.html" title="首頁">
-                                        首頁
+                                    <a href="index.html" title="鼎邦投資">
+                                        鼎邦投資
                                     </a>
                                 </li>
                                 <li :class="{'active': activeNum == 1}">
-                                    <a href="about.html" title="品牌故事">
-                                        品牌故事
+                                    <a href="about.html" title="鼎邦架構">
+                                        鼎邦架構
                                     </a>
                                 </li>
                                 <li :class="{'active': activeNum == 2}">
-                                    <a href="investment.html" title="如何投資">
-                                        如何投資
+                                    <a href="investment.html" title="資產管理">
+                                        資產管理
                                     </a>
                                 </li>
                                 <li :class="{'active': activeNum == 3}">
-                                    <a href="news.html" title="最新消息">
-                                        最新消息
+                                    <a href="news.html" title="相關網站">
+                                        相關網站
                                     </a>
                                 </li>
                                 <!--
@@ -309,7 +309,7 @@ Vue.component('footerArea', {
                     <footer class="footer">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-lg-7 col-md-24">
+                                <div class="col-2 col-lg-4 col-md-24">
                                     <div class="footer-logo">
                                         <a href="index.html" :title="$root.$data.companyName">
                                             <picture>
@@ -319,14 +319,28 @@ Vue.component('footerArea', {
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-17 col-md-24">
+                                <div class="col-10 col-lg-10 col-md-24">
+                                   
+                                    <div class="footer-companyInfo" style="text-align: center;">
+                                        <div class="footer-companyInfo-companyName">
+                                            <b>聯繫我們</b>
+                                        </div>
+                                       Facebook:「鼎邦投資」<br/>
+                                       Email:zxie9807@gmail.com<br/>
+                                       <br v-if="$root.$data.windowWidth < 768"/>
+                                       Add：中市西屯區府會園道179號3樓
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10 col-md-24">
                                     <div class="footer-companyInfo">
                                         <div class="footer-companyInfo-companyName">
-                                            <b>鼎邦投資股份有限公司獨立經營管理</b>
+                                            <b>合作夥伴</b>
                                         </div>
-                                       Facebook:「鼎邦投資」<span v-if="$root.$data.windowWidth > 767"> | </span> Email:zxie9807@gmail.com<span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：中市西屯區府會園道179號3樓 
-                                        <br/>
-                                        營業執照字號： 113年金管投顧新字第 004 號
+                                        TransGlobe Life Insurance Inc.全球人壽行政院洗錢防制辦公司FUNDCLEAR基金諮詢觀測站
+                                       <!--Facebook:「鼎邦投資」<span v-if="$root.$data.windowWidth > 767"> | </span> Email:zxie9807@gmail.com<span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：中市西屯區府會園道179號3樓 
+                                        --><br/>
+                                        香港證券及投資學會（HK.Securities and Investment Institute）
+                                        <!--營業執照字號： 113年金管投顧新字第 004 號-->
                                     </div>
                                 </div>
                             </div>
