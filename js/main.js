@@ -328,7 +328,7 @@ Vue.component('footerArea', {
                                        Facebook:「鼎邦投資」<br/>
                                        Email:zxie9807@gmail.com<br/>
                                        <br v-if="$root.$data.windowWidth < 768"/>
-                                       Add：中市西屯區府會園道179號3樓
+                                       Add：臺中市西屯區府會園道179號3樓
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-10 col-md-24">
@@ -337,7 +337,7 @@ Vue.component('footerArea', {
                                             <b>合作夥伴</b>
                                         </div>
                                         TransGlobe Life Insurance Inc.全球人壽行政院洗錢防制辦公司FUNDCLEAR基金諮詢觀測站
-                                       <!--Facebook:「鼎邦投資」<span v-if="$root.$data.windowWidth > 767"> | </span> Email:zxie9807@gmail.com<span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：中市西屯區府會園道179號3樓 
+                                       <!--Facebook:「鼎邦投資」<span v-if="$root.$data.windowWidth > 767"> | </span> Email:zxie9807@gmail.com<span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：臺中市西屯區府會園道179號3樓 
                                         --><br/>
                                         香港證券及投資學會（HK.Securities and Investment Institute）
                                         <!--營業執照字號： 113年金管投顧新字第 004 號-->
